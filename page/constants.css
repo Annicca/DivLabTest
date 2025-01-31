@@ -1,0 +1,27 @@
+:root {
+  /* colors */
+  --light-blue: #d3edfc;
+  --black: #000000;
+  --gray: #eeeeee;
+  --dark-gray: #b0afaf;
+  --white: #ffffff;
+  --yellow: #fae205;
+  --light-yellow: #fffbd2;
+  --blue: #d3edfc;
+
+  --shadow: 0px 4px 4px 0px #0000001a;
+
+  /* fonts */
+  --font-family-inter: Inter, serif;
+
+  /* font-size */
+  --font-size-24: 24px;
+  --font-size-16: 16px;
+
+  /* font-weight */
+  --font-weight-regular: 400;
+
+  /* line-height */
+  --line-height-29: 29px;
+  --line-height-19: 19px;
+}
