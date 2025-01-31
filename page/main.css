@@ -153,12 +153,13 @@ input[type="radio"]:checked + .tab {
   background-color: var(--light-yellow);
 }
 
-/* mobile */
-@media (max-width: 768px) {
+/* tablet and mobile */
+@media (max-width: 1024px) {
   .tab {
     display: block;
     width: 100%;
   }
+
   .aside {
     display: none;
   }
