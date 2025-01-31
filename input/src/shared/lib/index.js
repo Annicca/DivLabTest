@@ -16,17 +16,11 @@ const normalizeNumber = (str) => {
   return str.replace(/\s/g, "");
 };
 
+// Функция вычисления нового размера input
 const changeWidth = (value) =>
   Math.max(normalizeNumber(value).length * NUMBER_WIDTH_RATIO, 1);
 
-const delay = (func, delayMs) => {
-  return function (...args) {
-    setTimeout(() => func.apply(this, args), delayMs);
-  };
-};
-
 export default {
-  delay,
   changeWidth,
   isValidateNumber,
   formatNumber,
